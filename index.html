@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="shortcut icon"
+			href="assets/img/logo_letter.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="assets/css/all.css" />
+		<link rel="stylesheet" href="assets/css/animate.css" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
+		<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<title>Porty</title>
+	</head>
+
+	<body>
+		<a id="top"></a>
+		<div class="container navbar">
+			<header>
+				<a href="index.html" class="logo">
+					<img
+						src="assets/img/logo_letter.png"
+						alt="p"
+						width="30px"
+						height="50px"
+					/>
+					<h2>orty</h2>
+				</a>
+				<nav>
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#skills">Skills</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+
+		<div class="container main-info-section">
+			<div class="profile-img">
+				<img src="assets/img/profile-image.svg" alt="profile" />
+			</div>
+			<div class="social">
+				<a
+					href="https://www.linkedin.com/in/ganesh-hegde97"
+					target="_blank"
+					><i class="fab fa-linkedin-in"></i
+				></a>
+				<a href="https://github.com/ganesh-hegde97" target="_blank"
+					><i class="fab fa-github"></i
+				></a>
+				<a href="https://www.behance.net/ganeshhegde2" target="_blank"
+					><i class="fab fa-behance"></i
+				></a>
+			</div>
+			<div class="text">
+				<h1>Hello,<br /></h1>
+				<h2>
+					I'm
+					<span>G</span>
+					<span>a</span>
+					<span>n</span>
+					<span>e</span>
+					<span>s</span>
+					<span>h</span>
+					<br />
+					Web Developer.
+				</h2>
+				<a href="#contact">Contact me</a>
+			</div>
+		</div>
+
+		<div class="container about" id="about">
+			<h1>About</h1>
+			<img src="assets/img/about-shape.png" alt="about-shape" />
+			<div class="about-me-info">
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+					Quae, doloremque nisi nostrum dolore explicabo illum minima
+					optio soluta laboriosam iure expedita alias beatae id rem
+					fuga magnam pariatur vero dolor! Lorem ipsum dolor, sit amet
+					consectetur adipisicing elit. Quae, doloremque nisi nostrum
+					dolore explicabo illum minima optio soluta laboriosam iure
+					expedita alias beatae id rem fuga magnam pariatur vero
+					dolor!
+				</p>
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+					Quae, doloremque nisi nostrum dolore explicabo illum minima
+					optio soluta laboriosam iure expedita alias beatae id rem
+					fuga magnam pariatur vero dolor! Lorem ipsum dolor, sit amet
+					consectetur adipisicing elit. Quae, doloremque nisi nostrum
+					dolore explicabo illum minima optio soluta laboriosam iure
+					expedita alias beatae id rem fuga magnam pariatur vero
+					dolor!
+				</p>
+			</div>
+			<img src="assets/img/dot-shapes.png" alt="dotted-shape" />
+		</div>
+
+		<div class="container skills" id="skills">
+			<h1>Skills</h1>
+			<div class="skills-image">
+				<img src="assets/img/skills-image.svg" alt="skills-svg" />
+			</div>
+			<div class="html-wrap">
+				<div class="html">
+					<div class="tag-html">
+						<p>HTML</p>
+					</div>
+					<div class="progressbar">
+						<div class="bar-html"></div>
+					</div>
+				</div>
+				<div class="html">
+					<div class="tag-javascript">
+						<p>JS</p>
+					</div>
+					<div class="progressbar">
+						<div class="bar-js"></div>
+					</div>
+				</div>
+				<div class="html">
+					<div class="tag-css">
+						<p>CSS</p>
+					</div>
+					<div class="progressbar">
+						<div class="bar-css"></div>
+					</div>
+				</div>
+				<div class="html">
+					<div class="tag-react">
+						<p>ReactJS</p>
+					</div>
+					<div class="progressbar">
+						<div class="bar-react"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container work" id="work">
+			<h1>Work</h1>
+			<div class="work-category">
+				<button
+					id="designing"
+					class="active"
+					onclick="showRequiredCategory(this)"
+				>
+					Web Designing
+				</button>
+				<button id="development" onclick="showRequiredCategory(this)">
+					Web Development
+				</button>
+				<button id="php" onclick="showRequiredCategory(this)">
+					PHP Projects
+				</button>
+			</div>
+			<div class="category-designing showCategory lay-images">
+				<a
+					href="https://www.behance.net/gallery/106593111/Remastered-Pepsi-Website"
+					class="lay-container"
+					target="_blank"
+				>
+					<img src="assets/img/pepsi-remastered.png" alt="pepsi" />
+					<div class="overlay">
+						<div class="overlay-text">View</div>
+					</div>
+				</a>
+				<a
+					href="https://www.behance.net/gallery/110467533/Nike-Remastered"
+					class="lay-container"
+					target="_blank"
+				>
+					<img src="assets/img/nike-remastered.png" alt="nike" />
+					<div class="overlay">
+						<div class="overlay-text">View</div>
+					</div>
+				</a>
+				<a
+					href="https://www.behance.net/gallery/110468091/Remastered-Cafe-Coffee-Day"
+					class="lay-container"
+					target="_blank"
+				>
+					<img src="assets/img/ccd-remastered.png" alt="ccd" />
+					<div class="overlay">
+						<div class="overlay-text">View</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="category-development hideCategory lay-images">
+				<a href="" class="lay-container" target="_blank">
+					<img src="assets/img/laptop-land.png" alt="" />
+					<div class="overlay">
+						<div class="overlay-text">View</div>
+					</div>
+				</a>
+				<a href="https://github.com/ganesh-hegde97/react-portfolio" class="lay-container" target="_blank">
+					<img src="assets/img/codelife.io.png" alt="" />
+					<div class="overlay">
+						<div class="overlay-text">View</div>
+					</div>
+				</a>
+				<a
+					href="https://github.com/ganesh-hegde97/covid19-tracker"
+					class="lay-container"
+					target="_blank"
+				>
+					<img src="assets/img/covid-tracker.png" alt="" />
+					<div class="overlay">
+						<div class="overlay-text">View</div>
+					</div>
+				</a>
+				<a
+					href="https://github.com/ganesh-hegde97/red-store"
+					class="lay-container"
+					target="_blank"
+				>
+					<img src="assets/img/red-store.png" alt="" />
+					<div class="overlay">
+						<div class="overlay-text">View</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="category-php hideCategory lay-images">
+				<a href="" class="lay-container" target="_blank">
+					<img src="assets/img/portfolio-mdb.png" alt="" />
+					<div class="overlay">
+						<p>still in progress</p>
+						<div class="overlay-text">View</div>
+					</div>
+				</a>
+				<a href="https://github.com/ganesh-hegde97/lsapp" class="lay-container" target="_blank">
+					<img src="assets/img/laraBlog.png" alt="" />
+					<div class="overlay">
+						<p>still in progress</p>
+						<div class="overlay-text">View</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="container contact" id="contact">
+			<h1>Contact</h1>
+			<div class="contact-image">
+				<img src="assets/img/contact-image.svg" alt="contact-svg" />
+			</div>
+			<div class="contact-info">
+				<div class="email">
+					<i data-feather="mail"></i>
+					<a href="mailto:hegde.ganesh97@gmail.com" target="_blank"
+						>hegde.ganesh97@gmail.com</a
+					>
+				</div>
+				<div class="phone">
+					<i data-feather="phone"></i>
+					<a href="tel:+917829633653" target="_blank">7829633653,</a>
+					<a href="tel:+918277084827" target="_blank"
+						>&nbsp;8277044827</a
+					>
+				</div>
+				<div class="address">
+					<i data-feather="map-pin"></i>
+					<!-- <a
+						href="https://goo.gl/maps/DR78HMiCvKE5QVnG9"
+						target="_blank"
+					>
+					Bengaluru, India
+					</a> -->
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.55224949837!2d77.49085518357653!3d12.954294593725054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1609425489030!5m2!1sen!2sin"
+						width="300"
+						height="200"
+						frameborder="0"
+						allowfullscreen=""
+						aria-hidden="false"
+						tabindex="0"
+					></iframe>
+				</div>
+				<div class="cv">
+					<a href="assets/pdf/Resume.pdf" target="_blank">Hire Me</a>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<p class="copyright">&copy; 2020 Copyright Reserved.</p>
+		</footer>
+		<a href="#top" class="scrollTop">
+			<i data-feather="chevrons-up"></i>
+		</a>
+
+		<script>
+			feather.replace();
+		</script>
+		<script src="assets/js/ScrollMagic.min.js"></script>
+		<script src="assets/js/animation.gsap.min.js"></script>
+		<script src="assets/js/TimelineLite.min.js"></script>
+		<script src="assets/js/TweenMax.min.js"></script>
+		<script src="assets/js/CSSPlugin.min.js"></script>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>
